@@ -34,3 +34,4 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 scene.setBackgroundColor(6)
 controller.moveSprite(mySprite)
+game.splash("Hello World")
